@@ -1,4 +1,5 @@
 body {
+    /* background-image: linear-gradient(to right, #0D111D, #3D377D) */
     background-image: linear-gradient(to right, red, yellow)
 }
 

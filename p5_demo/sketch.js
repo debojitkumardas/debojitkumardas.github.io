@@ -19,6 +19,7 @@ function draw() {
     deltaX = centerX / iter_N;
     deltaY = centerY / iter_N;
 
+    stroke(255, 203, 69);
     for (let i = 0; i < iter_N; ++i) {
         line(centerX + (iter_N - i) * deltaX, centerY, centerX, centerY - i * deltaY);
         line(centerX - i * deltaX, centerY, centerX, centerY - (iter_N - i) * deltaY);
