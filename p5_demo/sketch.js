@@ -6,7 +6,8 @@ function setup() {
 
 function draw() {
     // background(255, 255, 255);
-    background(255);  // for grayscale one can use just one argument
+    // background(255);  // for grayscale one can use just one argument
+    clear();
 
     let dimX, dimY, centerX, centerY, deltaX, deltaY, iter_N;
 
