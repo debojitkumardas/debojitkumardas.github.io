@@ -7,3 +7,65 @@ h1 {
     color: black;
     text-align: center;
 }
+
+.join-button {
+    background-color: white;
+    color: rgb(62, 166, 255);
+    border-color: rgb(62, 166, 255);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 62px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.join-button:hover {
+    /* background-color: red; */
+    background-color: rgb(41, 118, 210);
+    color: white;
+}
+
+.join-button:active {
+    /* background-color: blue; */
+    opacity: 0.7;
+}
+
+.youtube-link {
+    background-color: rgb(27, 144, 238);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 130px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 8px;
+    transition: opacity 0.15s;
+}
+
+.youtube-link:hover {
+    opacity: 0.8;
+}
+
+.youtube-link:active {
+    opacity: 0.6;
+}
+
+.tweet {
+    background-color: rgb(27, 144, 236);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 74px;
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
